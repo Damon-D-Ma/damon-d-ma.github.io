@@ -1,0 +1,76 @@
+@font-face {
+    src: url(fonts/AlumniSansPinstripe-Regular.ttf);
+    font-family: asp;
+}
+
+
+body{
+    font-family: asp;
+    font-size: 1.5em;
+    background-color: #EEF5DB;
+    color: black;
+    margin: 0px;
+    font-weight: 600;
+}
+
+
+#header{
+
+    justify-content: space-between;
+    display: flex;
+    padding: 24px;
+    background-color: #FE5F55;
+    color: black;
+    border-bottom: black;
+}
+
+.navigation-bar{
+    display: flex;
+}
+.page-link a{
+    border-bottom: black;
+    color: black;
+}
+
+.page-link a:hover{
+    border-bottom: #7A9E9F;
+    color: #7A9E9F;
+}
+
+#current-page{
+    color: #4F6367;
+    border-bottom: #4F6367;
+}
+
+#home-page-header{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    justify-content: center;
+}
+
+#profile-picture{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 20em;
+}
+
+#home-body-text{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+.page-content{
+    display: block;
+}
+
+.page-link{
+    margin-right: 20px;
+}
+
+
