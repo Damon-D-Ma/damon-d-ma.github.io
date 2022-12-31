@@ -39,11 +39,29 @@
 
 
                 <div id="widget-container">
+                    <div class="widget-wrapper" onclick="location.href='about.html';" style="cursor: pointer;">
+                        <div class="widget-image-wrapper">
+                            <div class="widget-image" style="background-image:url(images/about-widget-background.jpg)"></div>
+                            <div class="widget-inner-text">Learn more about me and my skills</div>
+                        </div>
+                        
+
+                        <div class="initial-widget-text"><h3>About Me</h3></div>
+                    </div>
                     <div class="widget-wrapper">
-                        <div class="widget-image" style="background-image:url(images/about-widget-background.jpg)"></div>
-                        <div class="initial-widget-text">About Me</div>
+                        <div class="widget-image-wrapper" onclick="location.href='projects.html';" style="cursor: pointer;">
+                            <div class="widget-image" style="background-image:url(images/projects-widget-background.jpg)"></div>
+                            <div class="widget-inner-text">Access and view some of my best work</div>
+                        </div>
+                        <div class="initial-widget-text"><h3>Projects</h3></div>
 
-
+                    </div>
+                    <div class="widget-wrapper">
+                        <div class="widget-image-wrapper" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley', '_blank');" style="cursor: pointer;">
+                            <div class="widget-image" style="background-image:url(images/resume-widget-background.jpg)"></div>
+                            <div class="widget-inner-text">View and download a copy of my resume</div>
+                        </div>
+                        <div class="initial-widget-text"><h3>Resume</h3></div>
                     </div>
                 </div>
 
@@ -91,3 +109,17 @@
 </div>
 
 </body>
+<script>
+    const widgets = document.querySelectorAll('.widget-wrapper')
+    widgets.forEach(widget => {
+        widget.addEventListener('mouseover', () => {
+            widget.childNodes[1].childNodes[1].classList.add('widget-darken')
+        })
+        widget.addEventListener('mouseout', () => {
+            widget.childNodes[1].childNodes[1].classList.remove('widget-darken')
+        })
+
+    })
+
+</script>
+</html>
