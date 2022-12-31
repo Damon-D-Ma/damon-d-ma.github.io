@@ -43,6 +43,10 @@ body{
 }
 
 #home-page-header{
+
+    font-size: 2.0em;
+
+
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -50,13 +54,18 @@ body{
     justify-content: center;
 }
 
-#profile-picture{
-    display:block;
+#home-page-subheader{
+
+    font-size: 1.5em;
+
+
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
     width: 20em;
+    justify-content: center;
 }
+
 
 #home-body-text{
     justify-content: center;
