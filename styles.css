@@ -88,9 +88,6 @@ body{
 }
 
 #footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color: #FE5F55;
 }
@@ -108,7 +105,9 @@ body{
 #widget-container{
     display: flex;
     justify-content: center;
-    gap: 64px;
+    gap: 128px;
+    padding-bottom: 128px;
+    padding-top: 64px;
 
 }
 
@@ -198,4 +197,46 @@ body{
     margin-right: 20px;
 }
 
+
+
+
+.site-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    padding-bottom: 64px;
+}
+
+.site-image{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(50%)
+
+
+}
+
+
+#about-me-content{
+    padding-left: 32px;
+}
+
+
+.site-header-text{
+    font-size: 3.0em;
+    color: white;
+    padding: 32px;
+    position: absolute;
+}
+
+
+#skills-list-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
 
