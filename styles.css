@@ -43,6 +43,8 @@ body{
 }
 
 
+
+
 #home-page-header{
 
     font-size: 2.0em;
@@ -68,7 +70,13 @@ body{
 }
 
 
-
+#home-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 
 
 
@@ -89,7 +97,6 @@ body{
 
 .footer-container{
     font-size: 0.75em;
-    padding-bottom: 32px;
     padding-left: 64px;
     display: flex;
     justify-content: left;
