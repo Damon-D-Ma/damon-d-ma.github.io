@@ -41,7 +41,9 @@
 
 
             </div> 
-
+                <div id="home-page-intro-wrapper">
+                    <h1>Welcome and thank you so much for visiting my website! Here you'll find everything you need to know about me and my journey in computer science and programming. </h1>
+                </div>
                 <div id="widget-container">
                     <div class="widget-wrapper" onclick="location.href='about.html';" style="cursor: pointer;">
                         <div class="widget-image-wrapper">
@@ -113,17 +115,5 @@
 </div>
 
 </body>
-<script>
-    const widgets = document.querySelectorAll('.widget-wrapper')
-    widgets.forEach(widget => {
-        widget.addEventListener('mouseover', () => {
-            widget.childNodes[1].childNodes[1].classList.add('widget-darken')
-        })
-        widget.addEventListener('mouseout', () => {
-            widget.childNodes[1].childNodes[1].classList.remove('widget-darken')
-        })
-
-    })
-
-</script>
+<script type="text/javascript" src="home-page-animations.js"></script>
 </html>

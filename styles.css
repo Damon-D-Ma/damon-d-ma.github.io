@@ -223,7 +223,8 @@ body{
 
 
 #about-me-content{
-    padding-left: 32px;
+    margin: auto;
+    width: 80%;
 }
 
 
@@ -238,5 +239,52 @@ body{
 #skills-list-wrapper{
     display: flex;
     justify-content: space-evenly;
+}
+
+
+.project-showcase-wrapper{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    gap: 64px;
+    padding-bottom: 64px;
+}
+
+.showcase-item{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding:1px;
+    background-color: #D8D8D8;
+
+}
+
+.showcase-text-wrapper{
+
+    position: relative;
+    padding-left: 32px;
+    padding-right: 32px;
+    
+}
+
+.showcase-item-access-wrapper{
+    margin: 10% auto;
+
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+
+
+#home-page-intro-wrapper{
+    margin: auto;
+    width: 80%;
+}
+
+#project-intro-wrapper{
+    margin: auto;
+    width: 80%;
 }
 
