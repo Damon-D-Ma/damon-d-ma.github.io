@@ -288,3 +288,15 @@ body{
     width: 80%;
 }
 
+
+.pfp{
+    border-radius: 50%;
+}
+
+
+#overview-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
