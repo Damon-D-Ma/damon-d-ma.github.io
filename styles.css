@@ -290,6 +290,8 @@ body{
 
 
 .pfp{
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 50%;
 }
 
@@ -298,5 +300,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+#more-about{
+    padding-top: 64px;
 }
 
