@@ -66,7 +66,7 @@ export default function ProjectCarousel() {
                                         </a>
                                     </div>
                                     <div className='hover:bg-[#1e43a1] transition duration-500 mt-2'>
-                                        <a href="https://fixmymistake.tech" target="None">
+                                        <a href="https://github.com/Damon-D-Ma/deerhacks_2023" target="None">
                                             <div className='flex'>
                                             <div>
 
