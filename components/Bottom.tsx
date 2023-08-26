@@ -5,11 +5,10 @@ import React, { useState } from "react";
 
 
 export default function Bottom(){
-    const [isVisible, setIsVisible] = useState(false);
 
     return(
             <>
-                    <div className="pt-32 md:text-lg lg:text-lg sm:text-sm px-8 w-5/6 mx-auto text-center"/>
+                    <div className="pt-32 md:text-lg lg:text-lg sm:text-sm px-8 w-5/6 mx-auto text-center">
                         <h2 className="lg:text-4xl md:text-4xl sm:text-lg pb-24">Looks like you&apos;ve made it to the end!</h2>
                         <p>You could click this convenient button to go back to the start:</p>
                         <div className="hover:bg-[#0078d7] px-4 py-3 transition duration-500 inline-block rounded-full mx-0 my-0 py-0 px-0"><Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>
