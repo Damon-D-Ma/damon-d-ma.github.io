@@ -89,7 +89,7 @@ export default function ProjectCarousel() {
                             <img src='Website.png' alt='Personal Website photo' className=' hidden md:block w-3/5 max-h-[600px] rounded-lg'/>
                             <div className='text-left px-5'>
                                 <h2 className='text-4xl pb-4'>Personal Website</h2>
-                                <p>The site you're on right now! A responsive, mobile-friendly portfolio website made with Next.js and Tailwind CSS.</p>
+                                <p>The site you&apos;re on right now! A responsive, mobile-friendly portfolio website made with Next.js and Tailwind CSS.</p>
                                 <div className='pt-12 flex flex-wrap'>
                                     <TechItem icon={<img  src='./typescript-icon.svg' alt='' className='h-4 w-4 object-fit rounded-full'/>} text='TypeScript'/>
                                     <TechItem icon={<img  src='./file-type-html.svg' alt='' className='h-4 w-4 object-fit rounded-full'/>} text='HTML'/>
@@ -136,7 +136,7 @@ export default function ProjectCarousel() {
                             <img src='boggle-party-screenshot.png' alt='Boggle Party photo' className=' hidden md:block w-3/5 max-h-[600px] rounded-lg'/>
                             <div className='text-left px-5'>
                                 <h2 className='text-4xl pb-4'>Boggle Party</h2>
-                                <p>Boggle Party is a twist to the classic board game, Boggle. Facing off against either a bot or a friend next to you, randomized Boggle boards are given at the beginning of each player's turn. The objective of the game is to find as many words as possible before time runs out, and entering a correct word resets the timer!</p>
+                                <p>Boggle Party is a twist to the classic board game, Boggle. Facing off against either a bot or a friend next to you, randomized Boggle boards are given at the beginning of each player&apos;s turn. The objective of the game is to find as many words as possible before time runs out, and entering a correct word resets the timer!</p>
                                 <div className='pt-12 flex flex-wrap'>
                                     <TechItem icon={<div className='bg-white rounded-full'><img  src='./file-type-java.svg' alt='' className='h-4 w-4 object-fit rounded-full'/></div>} text='Java'/>
                                     <TechItem icon={<div className='bg-white rounded-full'><img  src='./JavaFX.png' alt='' className='h-4 w-4 object-fit rounded-full'/></div>} text='JavaFX'/>
@@ -151,7 +151,7 @@ export default function ProjectCarousel() {
                             <img src='tetris-screenshot.png' alt='Tetris photo' className='hidden md:block w-3/5 max-h-[600px] rounded-lg'/>
                             <div className='wtext-left px-5'>
                                 <h2 className='text-4xl pb-4'>Tetris</h2>
-                                <p>There's no need to explain the rules of the timeless game Tetris! This variation features a speed slider to adjust difficulty, as well as a loading and saving feature to continue games later.</p>
+                                <p>There&apos;s no need to explain the rules of the timeless game Tetris! This variation features a speed slider to adjust difficulty, as well as a loading and saving feature to continue games later.</p>
                                 <div className='pt-12 flex flex-wrap'>
                                     <TechItem icon={<div className='bg-white rounded-full'><img  src='./file-type-java.svg' alt='' className='h-4 w-4 object-fit rounded-full'/></div>} text='Java'/>
                                     <TechItem icon={<div className='bg-white rounded-full'><img  src='./JavaFX.png' alt='' className='h-4 w-4 object-fit rounded-full'/></div>} text='JavaFX'/>
@@ -225,7 +225,7 @@ export default function ProjectCarousel() {
                             <img src='weather-screenshot.jpg' alt='Weather Station photo' className='hidden md:block w-3/5 h-[600px] rounded-lg'/>
                             <div className='wtext-left px-5'>
                                 <h2 className='text-4xl pb-4'>Weather Station</h2>
-                                <p>A hardware project using an OLED screen and ESP32 microcontroller. Using an open-source weather API, the device displays hourly weather information according to the user's latitude and longitude. </p>
+                                <p>A hardware project using an OLED screen and ESP32 microcontroller. Using an open-source weather API, the device displays hourly weather information according to the user&apos;s latitude and longitude. </p>
                                 <div className='pt-12 flex flex-wrap'>
                                 <TechItem icon={<img  src='./c-cpp.svg' alt='' className='h-4 w-4 object-fit rounded-full'/>} text='C++'/>
                                     <TechItem icon={<img  src='./file-type-arduino.svg' alt='' className='h-4 w-4 object-fit rounded-full'/>} text='Arduino'/>
@@ -254,7 +254,7 @@ export default function ProjectCarousel() {
                             <img src='reaction-screenshot.jpg' alt='Reaction Meter photo' className='hidden md:block w-3/5 h-[600px] rounded-lg'/>
                             <div className='wtext-left px-5'>
                                 <h2 className='text-4xl pb-4'>Reaction Time Meter</h2>
-                                <p>A hardware project using an OLED Display, push button, and ESP32 microcontroller that tests a user's visual reaction time. Simply wait for the LED to turn on and press the blue button!</p>
+                                <p>A hardware project using an OLED Display, push button, and ESP32 microcontroller that tests a user&apos;s visual reaction time. Simply wait for the LED to turn on and press the blue button!</p>
                                 <div className='pt-12 flex flex-wrap'>
                                     <TechItem icon={<img  src='./c-cpp.svg' alt='' className='h-4 w-4 object-fit rounded-full'/>} text='C++'/>
                                     <TechItem icon={<img  src='./file-type-arduino.svg' alt='' className='h-4 w-4 object-fit rounded-full'/>} text='Arduino'/>

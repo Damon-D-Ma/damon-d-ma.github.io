@@ -13,7 +13,7 @@ export default function Contact() {
             <section id="skills">
                 <div className='pt-32 px-8 sm:text-sm md:text-lg lg:text-lg'>
                     <h1 className=' font-bold py-4 sm:text-2xl md:text-8xl lg:text-8xl  pb-12'>Skills</h1>
-                    <h2 className='py-4 lg:text-4xl md:text-4xl sm:text-lg pb-12'> I've picked up quite a few, here are some of them:</h2>
+                    <h2 className='py-4 lg:text-4xl md:text-4xl sm:text-lg pb-12'> I&apos;ve picked up quite a few, here are some of them:</h2>
                     <div className='w-5/6 mx-auto'>
                         <div className="rounded-lg bg-zinc-800">
 

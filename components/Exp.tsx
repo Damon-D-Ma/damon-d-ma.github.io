@@ -10,7 +10,7 @@ export default function Exp() {
                 <div>                    
                     
                     <h1 className=' font-bold py-4 sm:text-2xl md:text-8xl lg:text-8xl pb-12'>Experience</h1>
-                    <h2 className='py-4 lg:text-4xl md:text-4xl sm:text-lg pb-12'> Here's where I've put my knowledge and expertise to good use:</h2>
+                    <h2 className='py-4 lg:text-4xl md:text-4xl sm:text-lg pb-12'> Here's where I&apos;ve put my knowledge and expertise to good use:</h2>
                     <div className='w-5/6 mx-auto'>
                         <div className="rounded-lg bg-zinc-800 pt-4">
                         <h2 className='font-bold px-8 py-4 lg:text-4xl md:text-4xl sm:text-lg pb-12'> Game Design Instructor</h2>
