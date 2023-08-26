@@ -44,9 +44,7 @@ export default function Contact() {
                                 <SkillBar icon={<div className='bg-white rounded-full'><Image  src='./pygame.png' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/></div>} skill='PyGame' level={92}/>
                                 <SkillBar icon={<div className='bg-white rounded-full'><Image  src='./file-type-java.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/></div>} skill='Java Swing' level={80}/>
                                 <SkillBar icon={<div className='bg-white rounded-full'><Image  src='./JavaFX.png' alt='' height={16} width={16}  className='h-4 w-4 object-fit rounded-full'/></div>} skill='JavaFX' level={90}/>
-                                <SkillBar icon={<Image  src='./linux-original.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Linux' level={85}/>
-                                <SkillBar icon={<Image  src='./windows-legacy.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Windows' level={95}/>
-
+                                
 
                             </div>
                             <div className='px-4 pb-12'>
@@ -57,6 +55,8 @@ export default function Contact() {
                                 <SkillBar icon={<Image  src='./jb-pycharm.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='PyCharm' level={85}/>
                                 <SkillBar icon={<Image src='./Git-Icon-White.png' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Git' level={90}/>
                                 <SkillBar icon={<Image  src='./github-mark-white.svg' alt='' height={16} width={16}className='h-4 w-4 object-fit rounded-full'/>} skill='Github' level={90}/>
+                                <SkillBar icon={<Image  src='./linux-original.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Linux' level={85}/>
+                                <SkillBar icon={<Image  src='./windows-legacy.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Windows' level={95}/>
 
 
                             </div>
