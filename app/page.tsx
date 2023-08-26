@@ -10,7 +10,7 @@ import Bottom from '../components/Bottom'
 export default function Home() {
   return (
     <>
-      <div className="bg-zinc-900">
+      <div className="bg-zinc-900 text-white">
         <Header/>
         <Start/>
         <About/>

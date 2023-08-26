@@ -14,7 +14,7 @@ export default function About() {
                     <div className="w-5/6 pr-4">
                         <p className="pb-8">With an innate curiosity for how things tick, I ventured into the world of computer science and software development.
                         My journey began in 8th grade when a friend gave me my first taste of HTML (which isn&apos;t a programming language, by the way!) 
-                        and I got hooked on making basic webpages. Soon after, I would spent my days writing text-based adventure games with Java and 
+                        and I got hooked on making basic webpages. Soon after, I spent my days writing text-based adventure games with Java and 
                         eventually moved on to more challenging endeavours. Completing various projects, studying computer science, and sharing my knowledge
                         with others through my role as a Game Design Instructor have equipped me with the tools needed to succeed in the never-ending rabbit 
                         hole of software development.</p>
