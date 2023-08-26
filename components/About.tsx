@@ -20,7 +20,7 @@ export default function About() {
                         hole of software development.</p>
                         <p>Beyond my tech adventures, I&apos;ve done some other cool things throughout my years as a human being: </p>
                         <ul className="list-disc list-inside">
-                            <li>Earning a black belt in Taekwondo {"\u{1F94B}"}</li>
+                            <li>Earning a third degree black belt in Taekwondo {"\u{1F94B}"}</li>
                             <li>Strumming a few tunes on the guitar {"\u{1F3B8}"}</li>
                             <li>Exploring the beautiful, diverse cultures of the world {"\u{1F5FA}\u{FE0F}"}</li>
                             <li>Finding cool games to sink my teeth into {"\u{1F3AE}"}</li>
@@ -36,7 +36,7 @@ export default function About() {
                 </div>
 
 
-                <p className="pt-8">I hope this website can give you a better understanding of me, and I&apos;d love to know more about you too! Feel free to give me a shout at any time via email at <a href="mailto:damon.ma@mail.utoronto.ca" target="None" className='underline'>damon.ma@mail.utoronto.ca</a>, or add me on LinkedIn at <a href="https://www.linkedin.com/in/damon-d-ma/" target="None" className='underline'>linkedin.com/in/damon-d-ma</a>!</p>
+                <p className="pt-8">I hope this website can give you a better understanding of me, and I&apos;d love to know more about you too! Feel free to give me a shout any time via email at <a href="mailto:damon.ma@mail.utoronto.ca" target="None" className='underline'>damon.ma@mail.utoronto.ca</a>, or add me on LinkedIn at <a href="https://www.linkedin.com/in/damon-d-ma/" target="None" className='underline'>linkedin.com/in/damon-d-ma</a>!</p>
 
 
 
