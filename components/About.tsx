@@ -1,3 +1,4 @@
+import Image from 'next/image';
 
 
 
@@ -29,7 +30,7 @@ export default function About() {
                     </div>
 
                     <div className="w-1/6">
-                        <img src="pfp.png" alt="" className="rounded-full max-w-full"/>
+                        <Image src="pfp.png" width={500} height="500" alt="" className="rounded-full max-w-full"/>
                     </div>
 
                 </div>

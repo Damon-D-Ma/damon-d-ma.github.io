@@ -29,7 +29,7 @@ export default function Exp() {
                             </div>
                             <div className='flex flex-col w-2/3 pl-4'>
                                 <div>
-                                <img src='demo.gif' alt='' className='rounded-lg max-w-full'/>
+                                    <Image src='demo.gif' width={400} height={200} alt='' className='rounded-lg max-w-full'/>
 
 
                                 </div>

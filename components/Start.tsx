@@ -1,5 +1,7 @@
 'use client'
 import Window from './Window'
+import Image from 'next/image';
+
 
 
 export default function Start() {
@@ -9,9 +11,11 @@ export default function Start() {
 
         <div className='relative sm:h-screen md:h-[85vh] lg:h-[85vh] '>
   <div className='w-full h-full bg-cover bg-center relative'>
-    <img
+    <Image
       src='./code.jpg'
       alt='Background'
+      width={1920}
+      height={1080}
       className='w-full h-full object-cover'
     />
   </div>

@@ -2,6 +2,7 @@
 
 import { Link } from "react-scroll";
 import React, { useState } from "react";
+import Image from 'next/image';
 
 
 export default function Bottom(){
@@ -19,8 +20,7 @@ export default function Bottom(){
                         <p className="pb-12">...or you could enjoy this nice picture of these cherry blossoms I took. The choice is yours!</p>
 
                         <div className="flex justify-center">
-
-                            <img src="IMG_4466.JPG" alt="" className="rounded-lg h-96 object-cover"/>
+                            <Image src="IMG_4466.JPG" alt="" height={304} width={600} className="rounded-lg h-96 object-cover" />
                         </div>
     
                     </div>
