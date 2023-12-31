@@ -25,11 +25,13 @@ export default function Contact() {
                                 <SkillBar icon={<Image  src='./file-type-python.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Python' level={97}/>
                                 <SkillBar icon={<div className='bg-white rounded-full'><Image  src='./file-type-java.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/></div>} skill='Java' level={95}/>
                                 <SkillBar icon={<Image  src='./c-original.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='C' level={85}/>
-                                <SkillBar icon={<Image  src='./c-cpp.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='C++' level={50}/>
+                                <SkillBar icon={<Image  src='./c-cpp.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='C++' level={70}/>
                                 <SkillBar icon={<Image  src='./bash_full_colored_light.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Bash' level={80}/>
                                 <SkillBar icon={<Image  src='./javascript.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='JavaScript' level={70}/>
                                 <SkillBar icon={<Image  src='./typescript-icon.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='TypeScript' level={70}/>
                                 <SkillBar icon={<div className='bg-white rounded-full'><Image  src='./Tall_2.png' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/></div>} skill='Assembly (RISC-V)' level={75}/>
+                                <SkillBar icon={<Image  src='./racket-svgrepo-com.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Racket' level={70}/>
+                                <SkillBar icon={<Image  src='./haskell-svgrepo-com.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Haskell' level={70}/>
                                 <SkillBar icon={<Image  src='./file-type-html.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='HTML' level={85}/>
                                 <SkillBar icon={<Image  src='./file-type-css.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='CSS' level={80}/>
 
@@ -37,7 +39,7 @@ export default function Contact() {
                             </div>
                             <div className='px-4 pb-12'>
                                 <p className='font-bold lg:text-2xl md:text-2xl sm:text-md'>Frameworks/Technologies:</p>
-
+                                <SkillBar icon={<Image  src='./cuda-svgrepo-com.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='CUDA' level={80}/>
                                 <SkillBar icon={<Image  src='./react-js-icon.png' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='React.js' level={85}/>
                                 <SkillBar icon={<div className='bg-white rounded-full'><Image  src='./next-js.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/></div>} skill='Next.js' level={85}/>
                                 <SkillBar icon={<Image  src='./file-type-tailwind.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Tailwind CSS' level={93}/>
@@ -55,7 +57,7 @@ export default function Contact() {
                                 <SkillBar icon={<Image  src='./jb-pycharm.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='PyCharm' level={85}/>
                                 <SkillBar icon={<Image src='./Git-Icon-White.png' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Git' level={90}/>
                                 <SkillBar icon={<Image  src='./github-mark-white.svg' alt='' height={16} width={16}className='h-4 w-4 object-fit rounded-full'/>} skill='Github' level={90}/>
-                                <SkillBar icon={<Image  src='./linux-original.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Linux' level={85}/>
+                                <SkillBar icon={<Image  src='./linux-original.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Linux' level={90}/>
                                 <SkillBar icon={<Image  src='./windows-legacy.svg' alt='' height={16} width={16} className='h-4 w-4 object-fit rounded-full'/>} skill='Windows' level={95}/>
 
 

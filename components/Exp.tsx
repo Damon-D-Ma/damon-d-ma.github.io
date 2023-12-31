@@ -13,6 +13,36 @@ export default function Exp() {
                     <h2 className='py-4 lg:text-4xl md:text-4xl sm:text-lg pb-12'> Here&apos;s where I&apos;ve put my knowledge and expertise to good use:</h2>
                     <div className='w-5/6 mx-auto'>
                         <div className="rounded-lg bg-zinc-800 pt-4">
+                        <h2 className='font-bold px-8 py-4 lg:text-4xl md:text-4xl sm:text-lg pb-12'> Junior Web Developer</h2>
+
+
+                        <div className='flex px-4 py-4'>
+                            <div className='px-4'>
+                                <p className='lg:text-2xl md:text-2xl sm:text-md'>Mechanical &amp; Industrial Engineering University Of Toronto</p>
+                                <p className='lg:text-2xl md:text-2xl sm:text-md pb-12'>Toronto, ON, Canada</p>
+                                <ul className="list-disc list-inside">
+                                    <li>Contributed to the Social Needs Marketplace - Impact (SNM-I) project, a digital matchmaking web application that assists agencies in effectively providing social services to clients in need</li>
+                                    <li>Successfully resolved 7+ critical bugs in the frontend application, ensuring application reliability and data integrity</li>
+                                    <li>Collaborated with members of the development team to implement a shareability feature that allows agencies to share available programs and services with their designated partner organizations</li>
+                                    <li>Revamped the project's documentation system, providing a comprehensive guide to project setup, troubleshooting, and client-server architecture</li>
+
+                        </ul>
+                            </div>
+                            <div className='flex flex-col w-2/3 pl-4'>
+                                <div>
+                                    <Image src='University_of_Toronto-Logo.png' width={600} height={200} alt='' className='rounded-lg max-w-full bg-white'/>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <div className='w-5/6 mx-auto mt-8'>
+                        <div className="rounded-lg bg-zinc-800 pt-4">
                         <h2 className='font-bold px-8 py-4 lg:text-4xl md:text-4xl sm:text-lg pb-12'> Game Design Instructor</h2>
 
 

@@ -17,7 +17,7 @@ export default function About() {
                         and I got hooked on making basic webpages. Soon after, I spent my days writing text-based adventure games with Java and 
                         eventually moved on to more challenging endeavours. Completing various projects, studying computer science, and sharing my knowledge
                         with others through my role as a Game Design Instructor have equipped me with the tools needed to succeed in the never-ending rabbit 
-                        hole of software development.</p>
+                        hole of software development. I am currently working at the University of Toronto's Department of Mechanical and Industrial Engineering (MIE) faculty as a Junior Web Developer.</p>
                         <p>Beyond my tech adventures, I&apos;ve done some other cool things throughout my years as a human being: </p>
                         <ul className="list-disc list-inside">
                             <li>Earning a third degree black belt in Taekwondo {"\u{1F94B}"}</li>
